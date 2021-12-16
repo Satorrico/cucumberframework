@@ -1,0 +1,57 @@
+Notes on Gherkin
+
+
+
+GIVEN meaning precondition / prerequiste
+WHEN - perfoms actions
+AND - supporting tage that can be used with all other tags such as(given,when,then)
+THEN - Expected output
+
+WHO writes acceptance criteria? - Business Analyst
+
+WHO uses gherkin?
+BA
+QA
+
+EXAMPLE
+
+US - 123321 - Admin should be able to search an employee in HRMS application
+
+ACCEPTANCE CRITERIA
+1. search by id
+2. search by name
+
+1.
+GIVEN user opens browser and navigated to HRMS
+AND user is logged in as an admin
+AND user is on employee list page
+When user enters valid employee id
+And user clicks on search button
+Then user see employee in the employee table
+
+2.
+GIVEN user opens brower and navigated to HRMS
+AND user is logged in as an admin
+
+
+
+
+
+AND user is on employee list page
+When user enters firstname and last
+And user clicks on search button
+Then user see employee in the employee table
+
+
+maven - java
+SELENIUM
+cucumber
+apache
+commons
+
+User Story - verify login functionality
+
+Acceptance criteria -
+- valid admin login
+- valid ess login
+- valid username and invalid password
